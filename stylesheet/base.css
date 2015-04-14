@@ -47,6 +47,10 @@ a:hover {
 #title a{
     color: #202020;
 }
+code {
+    font: normal normal .8em/1.7 "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+    padding: 0 5px 1px;
+}
 @font-face {
     font-family: crysis;
     src: '../font/crysis.ttf';

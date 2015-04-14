@@ -1,11 +1,5 @@
 body {
-    background-color: #3a3a3a;
-}
-.public_project {
-    color: #00BB00;
-}
-.private_project {
-    color: #BB0000;
+    background-color: #525252;
 }
 #title {
     text-decoration: underline;
@@ -37,6 +31,9 @@ div.content-unit {
     border: 2px solid;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+div.content-unit p {
+    
 }
 @font-face {
     font-family: crysis;

@@ -1,14 +1,17 @@
 <html>
     <head>
+        <meta http-equiv="refresh" content="1" >
         <title>Projects</title>
         <link rel="stylesheet" href="stylesheet/base.css" type="text/css">
     </head>
     <body>
-        <h1>Projects</h1>
-        <p>
+        <h1 id="title">Projects</h1>
+        <div id="content">
             {% for name, project in projects.items() %}
-            <div class="project">
-                <h3>{{ name }}</h3><br/>
+            <div class="content-unit">
+                <h3 class="subtitle">
+                    <a href="{{ project.url }}">{{ name }}</a>
+                </h3>
                 <ul>
                     {% if project["public"] %}
                         <li class="public_project">Public project</li>
@@ -24,6 +27,6 @@
                 </ul>
             </div>
             {% endfor %}
-        </p>
+        </div>
     </body>
 </html>

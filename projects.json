@@ -1,17 +1,20 @@
 {
-  "tibp" : {
+  "Tibp" : {
     "public" : true,
     "language" : "Java",
-    "scope" : "personal"
+    "scope" : "hobby",
+    "url" : "https://github.com/Dedda/tibp"
   },
-  "paintball" : {
+  "Paintball" : {
     "public" : true,
     "language" : "Java",
-    "scope" : "school"
+    "scope" : "school",
+    "url" : "https://github.com/Dedda/paintball"
   },
-  "Penis" : {
+  "Scheisse" : {
     "public" : false,
-    "language" : "Hoden",
-    "scope" : "sack"
+    "language" : "Java",
+    "scope" : "hobby",
+    "url" : "https://gitlab.com/dedda/scheisse"
   }
 }

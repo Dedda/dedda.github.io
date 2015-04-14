@@ -1,0 +1,17 @@
+{
+  "tibp" : {
+    "public" : true,
+    "language" : "Java",
+    "scope" : "personal"
+  },
+  "paintball" : {
+    "public" : true,
+    "language" : "Java",
+    "scope" : "school"
+  },
+  "Penis" : {
+    "public" : false,
+    "language" : "Hoden",
+    "scope" : "sack"
+  }
+}

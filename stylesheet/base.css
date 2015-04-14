@@ -1,0 +1,22 @@
+body {
+    background-color: #2a2a2a;
+}
+h1 {
+    text-align: center;
+}
+div.project {
+    background-color: #4a4a4a;
+    margin: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.public_project {
+    color: #00FF00;
+}
+.private_project {
+    color: #FF0000;
+}

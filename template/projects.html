@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Projects</title>
+        <link rel="stylesheet" href="stylesheet/base.css" type="text/css">
+    </head>
+    <body>
+        <h1>Projects</h1>
+        <p>
+            {% for name, project in projects.items() %}
+            <div class="project">
+                <h3>{{ name }}</h3><br/>
+                <ul>
+                    {% if project["public"] %}
+                        <li class="public_project">Public project</li>
+                    {% else %}
+                        <li class="private_project">Private project</li>
+                    {% endif %}
+                    <li>
+                        Language: {{ project["language"] }}
+                    </li>
+                    <li>
+                        Scope: {{ project["scope"] }}
+                    </li>
+                </ul>
+            </div>
+            {% endfor %}
+        </p>
+    </body>
+</html>

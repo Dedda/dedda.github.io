@@ -1,3 +1,4 @@
 .idea
 nbproject
 __pycache__
+*.pyc

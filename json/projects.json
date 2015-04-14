@@ -3,24 +3,31 @@
     "public" : true,
     "language" : "Java",
     "scope" : "hobby",
-    "url" : "https://github.com/Dedda/tibp"
+    "url" : "https://github.com/Dedda/tibp",
+    "desc" : [
+      "A fusion game between Tetris, Space Invaders, Block Breaker and Pong.",
+      " Try to shoot as many invaders as possible, destroy the most blocks, survive",
+      " the longest and lose the fewest balls before the entire screen is covered in Tetris blocks."]
   },
   "Paintball" : {
     "public" : true,
     "language" : "Java",
     "scope" : "school",
-    "url" : "https://github.com/Dedda/paintball"
+    "url" : "https://github.com/Dedda/paintball",
+    "desc" : "PAINTBALL"
   },
   "Scheisse" : {
     "public" : false,
     "language" : "Java",
     "scope" : "hobby",
-    "url" : "https://gitlab.com/dedda/scheisse"
+    "url" : "https://gitlab.com/dedda/scheisse",
+    "desc" : "SCHEISSE"
   },
   "dedda.github.io" : {
     "public" : true,
     "language" : "Python / HTML / CSS",
     "scope" : "hobby",
-    "url" : "https://github.com/Dedda/dedda.github.io"
+    "url" : "https://github.com/Dedda/dedda.github.io",
+    "desc" : "Deddas Github Page"
   }
 }

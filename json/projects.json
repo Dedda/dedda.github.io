@@ -14,20 +14,22 @@
     "language" : "Java",
     "scope" : "school",
     "url" : "https://github.com/Dedda/paintball",
-    "desc" : "PAINTBALL"
+    "desc" : [
+      "A school project for learning Java GUIs and PostgreSQL. The goal is to build a small",
+      " control software for a hotel including guests, rooms, staff and salary."
+    ]
   },
   "Scheisse" : {
     "public" : false,
     "language" : "Java",
     "scope" : "hobby",
-    "url" : "https://gitlab.com/dedda/scheisse",
-    "desc" : "SCHEISSE"
+    "url" : "https://gitlab.com/dedda/scheisse"
   },
   "dedda.github.io" : {
     "public" : true,
     "language" : "Python / HTML / CSS",
     "scope" : "hobby",
     "url" : "https://github.com/Dedda/dedda.github.io",
-    "desc" : "Deddas Github Page"
+    "desc" : "Deddas Github Page. Basically the thing you're looking at right now..."
   }
 }

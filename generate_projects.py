@@ -21,7 +21,8 @@ def generate(debug):
         print("found project '" + name + "'")
         project_data = project
         project_data['name'] = name
-        project_data['desc'] = "".join(project['desc'])
+        if project.has_key('desc'):
+            project_data['desc'] = "".join(project['desc'])
         template_data['projects'][name] = project_data
     template = templateEnv.get_template(TEMPLATE_FILE)
     rendered = open(RENDERED_FILE, 'w')

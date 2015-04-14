@@ -27,10 +27,12 @@
                         Scope: {{ project["scope"] }}
                     </li>
                 </ul>
+                {% if project.desc|length > 0 %}
                 Description:
                 <div class="description">
                     {{ project.desc }}
                 </div>
+                {% endif %}
             </div>
             {% endfor %}
         </div>

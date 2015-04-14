@@ -41,8 +41,11 @@ div.content-unit {
 a:hover {
     color: #000000;
 }
-.subtitle a{
-    color: #303030
+.subtitle a, .content-unit a{
+    color: #303030;
+}
+#title a{
+    color: #202020;
 }
 @font-face {
     font-family: crysis;

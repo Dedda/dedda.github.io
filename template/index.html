@@ -1,11 +1,13 @@
 <html>
     <head>
-        
-        <title>Dedda</title>
+        {% if debug %}
+        <meta http-equiv="refresh" content="1" >
+        {% endif %}
+        <title>{{ title }}</title>
         <link rel="stylesheet" href="stylesheet/base.css" type="text/css">
     </head>
     <body>
-        <h1 id="title"><a href="https://github.com/Dedda">Dedda</a></h1>
+        <h1 id="title"><a href="{{ github_url }}">{{ title }}</a></h1>
         <div id="content">
             <div class="content-unit">
                 <ul>

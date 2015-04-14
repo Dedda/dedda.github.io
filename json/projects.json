@@ -16,5 +16,11 @@
     "language" : "Java",
     "scope" : "hobby",
     "url" : "https://gitlab.com/dedda/scheisse"
+  },
+  "dedda.github.io" : {
+    "public" : true,
+    "language" : "Python / HTML / CSS",
+    "scope" : "hobby",
+    "url" : "https://github.com/Dedda/dedda.github.io"
   }
 }

@@ -10,8 +10,8 @@ TEMPLATE_FILE = 'projects.html'
 RENDERED_FILE = 'projects.html'
 
 def generate(debug):
-    templateLoader = jinja2.FileSystemLoader(searchpath=TEMPLATES_FOLDER)
-    templateEnv = jinja2.Environment(loader=templateLoader)
+    template_loader = jinja2.FileSystemLoader(searchpath=TEMPLATES_FOLDER)
+    template_env = jinja2.Environment(loader=template_loader)
     print('generating projects page...')
     json_data = open(JSON_FILE).read()
     data = json.loads(json_data)
@@ -24,7 +24,7 @@ def generate(debug):
         if project.has_key('desc'):
             project_data['desc'] = "".join(project['desc'])
         template_data['projects'][name] = project_data
-    template = templateEnv.get_template(TEMPLATE_FILE)
+    template = template_env.get_template(TEMPLATE_FILE)
     rendered = open(RENDERED_FILE, 'w')
     rendered.write(template.render(template_data))
     print('projcets page generated!')

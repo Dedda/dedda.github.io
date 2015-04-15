@@ -11,9 +11,9 @@
         <div id="content">
             {% for name, project in projects.items() %}
             <div class="content-unit">
-                <h3 class="subtitle">
+                <h2 class="subtitle">
                     <a href="{{ project.url }}">{{ name }}</a>
-                </h3>
+                </h2>
                 <ul>
                     {% if project["public"] %}
                         <li class="public_project">Public project</li>
@@ -29,7 +29,7 @@
                 </ul>
                 {% if project.desc|length > 0 %}
                 Description:
-                <div class="description">
+                <div class="description-bottom">
                     {{ project.desc }}
                 </div>
                 {% endif %}

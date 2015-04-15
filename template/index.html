@@ -10,6 +10,11 @@
         <h1 id="title"><a href="{{ github_url }}">{{ title }}</a></h1>
         <div id="content">
             <div class="content-unit">
+                {% if desc|length > 0 %}
+                <div class="description-top">
+                    {{ desc }}
+                </div>
+                {% endif %}
                 <ul>
                     <li><a href="projects.html">Projects</a></li>
                 </ul>

@@ -1,5 +1,5 @@
 body {
-    background-color: #3a3a3a;
+    background-color: #454545;
 }
 .public_project {
     color: #00bb00;
@@ -54,14 +54,27 @@ code {
 language {
     font-weight: bold;
 }
-.description {
+.description-bottom {
     background-color: #808080;
     border: 2px solid;
     border-color: #303030;
+    border-bottom-right-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-bottom: 3px;
+}
+.description-top {
+    background-color: #808080;
+    border: 2px solid;
+    border-color: #303030;
+    border-top-right-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 3px;
 }
 @font-face {
     font-family: crysis;

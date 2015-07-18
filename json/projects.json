@@ -20,10 +20,10 @@
     ]
   },
   "Scheisse" : {
-    "public" : false,
+    "public" : true,
     "language" : "Java",
     "scope" : "hobby",
-    "url" : "https://gitlab.com/dedda/scheisse"
+    "url" : "https://github.com/Dedda/scheisse"
   },
   "dedda.github.io" : {
     "public" : true,

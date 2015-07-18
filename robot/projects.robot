@@ -11,6 +11,8 @@ Go To Projects Page
     Go To    http://dedda.github.io/projects.html
 
 Check Elements
+    Wait Until Page Contains Element    xpath=//h1[@id='title' and text()='Projects']
+    Wait Until Page Contains Element    xpath=//div[@id='content']
     Wait Until Page Contains Element    xpath=//a[@href='https://github.com/Dedda/paintball']
     Wait Until Page Contains Element    xpath=//a[@href='https://github.com/Dedda/tibp']
     Wait Until Page Contains Element    xpath=//a[@href='https://github.com/Dedda/dedda.github.io']

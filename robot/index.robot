@@ -20,6 +20,7 @@ Check Links
 Index
     Open Browser To Index Page
     Wait Until Page Contains Element    xpath=//h1[@id='title']
+    Wait Until Page Contains Element    xpath=//h1[@id='title']/a[text()='Dedda' and @href='https://github.com/Dedda']
     Wait Until Page Contains Element    xpath=//div[@id='content']
     Wait Until Page Contains Element    xpath=//div[@class='content-unit']
     Wait Until Page Contains Element    xpath=//div[@class='content-unit']/ul/li/a[@href='projects.html']

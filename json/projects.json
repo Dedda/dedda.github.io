@@ -1,4 +1,10 @@
 {
+  "Scheisse" : {
+    "public" : true,
+    "language" : "Java",
+    "scope" : "hobby",
+    "url" : "https://github.com/Dedda/scheisse"
+  },
   "Tibp" : {
     "public" : true,
     "language" : "Java",
@@ -8,6 +14,20 @@
       "A fusion game between Tetris, Space Invaders, Block Breaker and Pong.",
       " Try to shoot as many invaders as possible, destroy the most blocks, survive",
       " the longest and lose the fewest balls before the entire screen is covered in Tetris blocks."]
+  },
+  "python-gps-logger" : {
+    "public" : true,
+    "language" : "Python",
+    "scope" : "hobby",
+    "url" : "https://github.com/Dedda/python-gps-logger",
+    "desc" : "Tool to log uart gps data."
+  },
+  "clojure-gps-aggregator" : {
+    "public" : true,
+    "language" : "Clojure",
+    "scope" : "hobby",
+    "url" : "https://github.com/Dedda/clojure-gps-aggregator",
+    "desc" : "Program to crunch a bunch of gps data gathered from the project above."
   },
   "Paintball" : {
     "public" : true,
@@ -19,17 +39,18 @@
       " control software for a hotel including guests, rooms, staff and salary."
     ]
   },
-  "Scheisse" : {
-    "public" : true,
-    "language" : "Java",
-    "scope" : "hobby",
-    "url" : "https://github.com/Dedda/scheisse"
-  },
   "dedda.github.io" : {
     "public" : true,
     "language" : "Python / HTML / CSS",
     "scope" : "hobby",
     "url" : "https://github.com/Dedda/dedda.github.io",
-    "desc" : "Deddas Github Page. Basically the thing you're looking at right now..."
+    "desc" : "Deddas Github Page. Basically the thing you're staring at right now..."
+  },
+  "DBAL" : {
+    "public" : true,
+    "language" : "Java",
+    "scope" : "hobby",
+    "url" : "https://github.com/Dedda/DBAL",
+    "desc" : "Small database abstraction layer based on annotations."
   }
 }

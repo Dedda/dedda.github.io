@@ -21,8 +21,9 @@ def generate(debug):
         print("found project '" + name + "'")
         project_data = project
         project_data['name'] = name
-        if 'travis-state' in project:
-            project_data['travis_state'] = "".join(project['travis-state'])
+        if 'travis-link' in project:
+            project_data['travis_page'] = project['travis-link']
+            project_data['travis_state'] = project['travis-link'] + ".svg"
         if 'desc' in project:
             project_data['desc'] = "".join(project['desc'])
         template_data['projects'][name] = project_data

@@ -3,7 +3,7 @@
     "public" : true,
     "language" : "Java",
     "scope" : "hobby",
-    "travis-state" : "https://travis-ci.org/Dedda/scheisse.svg?branch=master",
+    "travis-link" : "https://travis-ci.org/Dedda/scheisse",
     "url" : "https://github.com/Dedda/scheisse"
   },
   "Tibp" : {
@@ -11,6 +11,7 @@
     "language" : "Java",
     "scope" : "hobby",
     "url" : "https://github.com/Dedda/tibp",
+    "travis-link" : "https://travis-ci.org/Dedda/tibp",
     "desc" : [
       "A fusion game between Tetris, Space Invaders, Block Breaker and Pong.",
       " Try to shoot as many invaders as possible, destroy the most blocks, survive",
@@ -52,7 +53,7 @@
     "language" : "Java",
     "scope" : "hobby",
     "url" : "https://github.com/Dedda/DBAL",
-    "travis-state" : "https://travis-ci.org/Dedda/DBAL.svg",
+    "travis-link" : "https://travis-ci.org/Dedda/DBAL",
     "desc" : "Small database abstraction layer based on annotations."
   }
 }

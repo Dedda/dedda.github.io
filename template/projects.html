@@ -11,8 +11,10 @@
         <div id="content">
             {% for name, project in projects.items() %}
             <div class="content-unit">
-                {% if project.travis_state|length > 0 %}
-                <img src="{{ project['travis_state'] }}"/>
+                {% if project.travis_page|length > 0 %}
+                <a href="{{ project['travis_page'] }}">
+                    <img src="{{ project['travis_state'] }}"/>
+                </a>
                 {% endif %}
                 <h2 class="subtitle">
                     <a href="{{ project.url }}">{{ name }}</a>

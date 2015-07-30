@@ -3,6 +3,7 @@
     "public" : true,
     "language" : "Java",
     "scope" : "hobby",
+    "travis-state" : "https://travis-ci.org/Dedda/scheisse.svg?branch=master",
     "url" : "https://github.com/Dedda/scheisse"
   },
   "Tibp" : {
@@ -51,6 +52,7 @@
     "language" : "Java",
     "scope" : "hobby",
     "url" : "https://github.com/Dedda/DBAL",
+    "travis-state" : "https://travis-ci.org/Dedda/DBAL.svg",
     "desc" : "Small database abstraction layer based on annotations."
   }
 }

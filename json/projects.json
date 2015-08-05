@@ -6,6 +6,12 @@
     "travis-link" : "https://travis-ci.org/Dedda/scheisse",
     "url" : "https://github.com/Dedda/scheisse"
   },
+  "os" : {
+    "public" : true,
+    "language" : "Assembly / C",
+    "scope" : "hobby",
+    "url" : "https://github.com/Dedda/os"
+  },
   "Tibp" : {
     "public" : true,
     "language" : "Java",

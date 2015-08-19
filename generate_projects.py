@@ -21,6 +21,13 @@ def generate(debug):
         print("found project '" + name + "'")
         project_data = project
         project_data['name'] = name
+        if 'active' in project:
+            if project['active']:
+                project_data['status'] = "active"
+            else:
+                project_data['status'] = "paused"
+        else:
+            project_data['status'] = "undefined"
         if 'travis-link' in project:
             project_data['travis_page'] = project['travis-link']
             project_data['travis_state'] = project['travis-link'] + ".svg"

@@ -10,7 +10,7 @@
         <h1 id="title">Projects</h1>
         <div id="content">
             {% for name, project in projects.items() %}
-            <div class="content-unit">
+            <div class="content-unit {{ project['status'] }}">
                 {% if project.travis_page|length > 0 %}
                 <a href="{{ project['travis_page'] }}">
                     <img src="{{ project['travis_state'] }}"/>

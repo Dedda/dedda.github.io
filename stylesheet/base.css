@@ -33,10 +33,18 @@ div.content-unit {
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 0px 20px 20px 0px;
-    border-color: black;
     border: 2px solid;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+div.content-unit.paused {
+    border-color: red;
+}
+div.content-unit.active {
+    border-color: green;
+}
+div.content-unit.undefined {
+    border-color: black;
 }
 div.content-unit img {
     margin-top: 10px;

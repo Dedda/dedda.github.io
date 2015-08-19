@@ -28,14 +28,14 @@
     "language" : "Python",
     "scope" : "hobby",
     "url" : "https://github.com/Dedda/python-gps-logger",
-    "desc" : "Tool to log uart gps data."
+    "desc" : "Tool to log uart gps data on a RaspberryPi."
   },
   "clojure-gps-aggregator" : {
     "public" : true,
     "language" : "Clojure",
     "scope" : "hobby",
     "url" : "https://github.com/Dedda/clojure-gps-aggregator",
-    "desc" : "Program to crunch a bunch of gps data gathered from the project above."
+    "desc" : "Program to crunch a bunch of gps data gathered from the python-gps-logger project."
   },
   "Paintball" : {
     "public" : true,

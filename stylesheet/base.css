@@ -38,10 +38,16 @@ div.content-unit {
     margin-bottom: 5px;
 }
 div.content-unit.paused {
-    border-color: red;
+    border-color: yellow;
 }
 div.content-unit.active {
     border-color: green;
+}
+div.content-unit.stopped {
+    border-color: red;
+}
+div.content-unit.finished {
+    border-color: blue;
 }
 div.content-unit.undefined {
     border-color: black;

@@ -36,7 +36,7 @@
   },
   "clojure-gps-aggregator" : {
     "public" : true,
-    "status" : "paused",
+    "status" : "active",
     "language" : "Clojure",
     "scope" : "hobby",
     "url" : "https://github.com/Dedda/clojure-gps-aggregator",

@@ -21,20 +21,17 @@ def generate(debug):
         print("found project '" + name + "'")
         project_data = project
         project_data['name'] = name
-        if 'active' in project:
-            if project['active']:
-                project_data['status'] = "active"
-            else:
-                project_data['status'] = "paused"
+        if 'status' in project:
+            project_data['status'] = project['status']
         else:
-            project_data['status'] = "undefined"
+            project_data['status'] = 'undefined'
         if 'travis-link' in project:
             project_data['travis_page'] = project['travis-link']
             project_data['travis_state'] = project['travis-link'] + ".svg"
         if 'gitter_link' in project:
             project_data['gitter_link'] = project['gitter_link']
         if 'desc' in project:
-            project_data['desc'] = "".join(project['desc'])
+            project_data['desc'] = ''.join(project['desc'])
         template_data['projects'][name] = project_data
     template = template_env.get_template(TEMPLATE_FILE)
     rendered = open(RENDERED_FILE, 'w')

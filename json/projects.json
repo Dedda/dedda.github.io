@@ -1,7 +1,7 @@
 {
   "Scheisse" : {
     "public" : true,
-    "active" : true,
+    "status" : "active",
     "language" : "Java",
     "scope" : "hobby",
     "travis-link" : "https://travis-ci.org/Dedda/scheisse",
@@ -10,14 +10,14 @@
   },
   "os" : {
     "public" : true,
-    "active" : true,
+    "status" : "active",
     "language" : "Assembly / C",
     "scope" : "hobby",
     "url" : "https://github.com/Dedda/os"
   },
   "Tibp" : {
     "public" : true,
-    "active" : false,
+    "status" : "paused",
     "language" : "Java",
     "scope" : "hobby",
     "url" : "https://github.com/Dedda/tibp",
@@ -29,7 +29,7 @@
   },
   "python-gps-logger" : {
     "public" : true,
-    "active" : false,
+    "status" : "paused",
     "language" : "Python",
     "scope" : "hobby",
     "url" : "https://github.com/Dedda/python-gps-logger",
@@ -37,7 +37,7 @@
   },
   "clojure-gps-aggregator" : {
     "public" : true,
-    "active" : false,
+    "status" : "active",
     "language" : "Clojure",
     "scope" : "hobby",
     "url" : "https://github.com/Dedda/clojure-gps-aggregator",
@@ -45,7 +45,7 @@
   },
   "Paintball" : {
     "public" : true,
-    "active" : false,
+    "status" : "paused",
     "language" : "Java",
     "scope" : "school",
     "url" : "https://github.com/Dedda/paintball",
@@ -56,7 +56,7 @@
   },
   "dedda.github.io" : {
     "public" : true,
-    "active" : true,
+    "status" : "active",
     "language" : "Python / HTML / CSS",
     "scope" : "hobby",
     "url" : "https://github.com/Dedda/dedda.github.io",
@@ -64,7 +64,7 @@
   },
   "DBAL" : {
     "public" : true,
-    "active" : false,
+    "status" : "paused",
     "language" : "Java",
     "scope" : "hobby",
     "url" : "https://github.com/Dedda/DBAL",

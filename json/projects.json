@@ -5,7 +5,7 @@
     "language" : "Java",
     "scope" : "hobby",
     "travis-link" : "https://travis-ci.org/Dedda/scheisse",
-    "gitter_link" : "https://gitter.im/Dedda/scheisse",
+    "gitter" : true,
     "url" : "https://github.com/Dedda/scheisse"
   },
   "os" : {

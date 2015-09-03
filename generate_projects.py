@@ -28,8 +28,9 @@ def generate(debug):
         if 'travis-link' in project:
             project_data['travis_page'] = project['travis-link']
             project_data['travis_state'] = project['travis-link'] + ".svg"
-        if 'gitter_link' in project:
-            project_data['gitter_link'] = project['gitter_link']
+        if 'gitter' in project:
+            if project['gitter']:
+                project_data['gitter_link'] = "https://gitter.im/Dedda/" + project['name']
         if 'desc' in project:
             project_data['desc'] = ''.join(project['desc'])
         template_data['projects'][name] = project_data

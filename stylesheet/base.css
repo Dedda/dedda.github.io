@@ -22,11 +22,18 @@ body {
     border: 15px solid;
     border-color: #303030;
 }
+.legend-entry {
+    width: 11px;
+    height: 11px;
+    float: left;
+    border: 2px solid;
+    margin-right: 5px;
+}
 .subtitle {
     font-family: crysis;
     text-align: left;
 }
-div.content-unit {
+.content-unit {
     background-color: #636363;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -37,19 +44,19 @@ div.content-unit {
     margin-top: 5px;
     margin-bottom: 5px;
 }
-div.content-unit.paused {
+.paused {
     border-color: yellow;
 }
-div.content-unit.active {
+.active {
     border-color: green;
 }
-div.content-unit.stopped {
+.stopped {
     border-color: red;
 }
-div.content-unit.finished {
+.finished {
     border-color: blue;
 }
-div.content-unit.undefined {
+.undefined {
     border-color: black;
 }
 div.content-unit img {

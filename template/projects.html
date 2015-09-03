@@ -16,6 +16,11 @@
                     <img src="{{ project['travis_state'] }}"/>
                 </a>
                 {% endif %}
+                {% if project.gitter_link|length > 0 %}
+                <a href="{{ project['gitter_link'] }}">
+                    <img src="https://badges.gitter.im/Join%20Chat.svg">
+                </a>
+                {% endif %}
                 <h2 class="subtitle">
                     <a href="{{ project.url }}">{{ name }}</a>
                 </h2>

@@ -1,4 +1,16 @@
 {
+  "bratwurst" : {
+    "public" : true,
+    "status" : "active",
+    "language" : "Java, bratwurst",
+    "scope" : "hobby",
+    "travis-link" : "https://travis-ci.org/Dedda/bratwurst",
+    "url" : "https://github.com/Dedda/bratwurst",
+    "desc" : [
+      "Simple object oriented programming language. Version 1.0 is out now but not capable of",
+      " loops or conditions. Also functions not contained by an object are still buggy."
+    ]
+  },
   "Scheisse" : {
     "public" : true,
     "status" : "active",

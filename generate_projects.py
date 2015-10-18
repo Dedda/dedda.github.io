@@ -31,6 +31,9 @@ def generate(debug):
         if 'gitter' in project:
             if project['gitter']:
                 project_data['gitter_link'] = "https://gitter.im/Dedda/" + project['name']
+        if 'logo' in project:
+            if project['logo']:
+                project_data['logo'] = 'img/' + project['logo']
         if 'desc' in project:
             project_data['desc'] = ''.join(project['desc'])
         template_data['projects'][name] = project_data

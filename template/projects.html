@@ -39,6 +39,9 @@
                 </a>
                 {% endif %}
                 <h2 class="subtitle">
+                    {% if project.logo|length > 0 %}
+                    <img src="{{ project.logo }}" height="20px"/>
+                    {% endif %}
                     <a href="{{ project.url }}">{{ name }}</a>
                 </h2>
                 <ul>

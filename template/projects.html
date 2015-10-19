@@ -25,6 +25,9 @@
                         <div class="legend-entry finished"></div>Finished
                     </div>
                 </div>
+                {% if show_downloads %}
+                <a href="download.html">Downloads</a>
+                {% endif %}
             </div>
             {% for name, project in projects.items() %}
             <div class="content-unit {{ project['status'] }}">

@@ -17,6 +17,7 @@ def generate(debug):
     data = json.loads(json_data)
     template_data = {'debug' : debug}
     template_data['projects'] = {}
+    downloads = 0
     for (name, project) in data.items():
         print("found project '" + name + "'")
         project_data = project
@@ -36,7 +37,10 @@ def generate(debug):
                 project_data['logo'] = 'img/' + project['logo']
         if 'desc' in project:
             project_data['desc'] = ''.join(project['desc'])
+        if 'downloads' in project:
+            downloads = 1
         template_data['projects'][name] = project_data
+        template_data['show_downloads'] = downloads
     template = template_env.get_template(TEMPLATE_FILE)
     rendered = open(RENDERED_FILE, 'w')
     rendered.write(template.render(template_data))

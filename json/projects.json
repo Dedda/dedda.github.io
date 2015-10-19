@@ -10,7 +10,12 @@
     "desc" : [
       "Simple object oriented programming language. Version 1.2 is out.",
       " Now with loops and conditions! Clone it like it's hot!"
-    ]
+    ],
+    "downloads" : {
+      "v1.0" : "bratwurst_v1.0.jar",
+      "v1.1" : "bratwurst_v1.1.jar",
+      "v1.2" : "bratwurst_v1.2.jar"
+    }
   },
   "Scheisse" : {
     "public" : true,

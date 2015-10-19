@@ -14,7 +14,7 @@
   },
   "Scheisse" : {
     "public" : true,
-    "status" : "active",
+    "status" : "paused",
     "language" : "Java",
     "scope" : "hobby",
     "travis-link" : "https://travis-ci.org/Dedda/scheisse",
@@ -23,7 +23,7 @@
   },
   "os" : {
     "public" : true,
-    "status" : "active",
+    "status" : "paused",
     "language" : "Assembly / C",
     "scope" : "hobby",
     "url" : "https://github.com/Dedda/os"
@@ -50,7 +50,7 @@
   },
   "clojure-gps-aggregator" : {
     "public" : true,
-    "status" : "active",
+    "status" : "paused",
     "language" : "Clojure",
     "scope" : "hobby",
     "url" : "https://github.com/Dedda/clojure-gps-aggregator",
@@ -58,7 +58,7 @@
   },
   "Paintball" : {
     "public" : true,
-    "status" : "paused",
+    "status" : "stopped",
     "language" : "Java",
     "scope" : "school",
     "url" : "https://github.com/Dedda/paintball",

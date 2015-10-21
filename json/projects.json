@@ -8,13 +8,14 @@
     "url" : "https://github.com/Dedda/bratwurst",
     "logo" : "bratwurst.png",
     "desc" : [
-      "Simple object oriented programming language. Version 1.2 is out.",
-      " Now with loops and conditions! Clone it like it's hot!"
+      "Simple object oriented programming language. Version 1.3 is out.",
+      " Now supports includes! Clone it like it's hot!"
     ],
     "downloads" : {
       "v1.0" : "bratwurst_v1.0.jar",
       "v1.1" : "bratwurst_v1.1.jar",
-      "v1.2" : "bratwurst_v1.2.jar"
+      "v1.2" : "bratwurst_v1.2.jar",
+      "v1.3" : "bratwurst_v1.3.jar"
     }
   },
   "Scheisse" : {

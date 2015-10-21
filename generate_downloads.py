@@ -25,6 +25,7 @@ def generate(debug):
             for downloadName in project['downloads']:
                 downloads[downloadName] = 'download/' + project['downloads'][downloadName]
             project_data['downloads'] = downloads
+            project_data['url'] = project['url']
             if 'logo' in project:
                 if project['logo']:
                     project_data['logo'] = 'img/' + project['logo']

@@ -18,6 +18,13 @@
       "v1.3" : "bratwurst_v1.3.jar"
     }
   },
+  "lib-ido" : {
+    "public" : true,
+    "status": "active",
+    "language" : "Java, Bash, PHP, Erlang",
+    "scope" : "hobby",
+    "url" : "https://github.com/Dedda/lib-ido"
+  },
   "Scheisse" : {
     "public" : true,
     "status" : "paused",

@@ -31,6 +31,9 @@ Check Links
     Go To Projects Page
     Click Element    xpath=//a[@href='https://github.com/Dedda/scheisse']
     Location Should Be    https://github.com/Dedda/scheisse
+    Go To Projects Page
+    Click Element    xpath=//a[text()='bratwurst']
+    Location Should Be    http://lib-ido.de/bratwurst/index
 
 *** Test Cases ***
 

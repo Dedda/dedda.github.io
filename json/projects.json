@@ -5,7 +5,7 @@
     "language" : "Java, bratwurst",
     "scope" : "hobby",
     "travis-link" : "https://travis-ci.org/Dedda/bratwurst",
-    "url" : "https://github.com/Dedda/bratwurst",
+    "url" : "http://lib-ido.de/bratwurst/index",
     "logo" : "bratwurst.png",
     "desc" : [
       "Simple object oriented programming language. Version 1.3 is out.",

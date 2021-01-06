@@ -1,0 +1,12 @@
+[
+  {
+    "page": "index.html",
+    "title": "Home",
+    "index": 1
+  },
+  {
+    "page": "regal.html",
+    "title": "Regal",
+    "index": 2
+  }
+]
